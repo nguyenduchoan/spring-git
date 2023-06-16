@@ -12,4 +12,9 @@ public class HomeController {
     public String helloWork() {
         return "Hello Work";
     }
+
+    @GetMapping("/home")
+    public String home() {
+        return "HomeController";
+    }
 }
